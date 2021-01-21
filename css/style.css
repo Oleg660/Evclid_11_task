@@ -94,6 +94,7 @@ p {
   --orange: #ff9900;
   --white: #fff;
   --dark-grey: #333;
+  --light-red: #e1670e;
 }
 
 .container {
@@ -200,11 +201,11 @@ p {
 
 .header_link:active:after {
   width: 100%;
-  background: #e1670e;
+  background: var(--light-red);
 }
 
 .header_link:active {
-  color: #e1670e;
+  color: var(--light-red);
 }
 
 .header_btn {
@@ -304,12 +305,12 @@ p {
 }
 
 .second_btn:focus {
-  background: #e1670e;
+  background: var(--light-red);
   outline: none;
 }
 
 .second_btn:active {
-  background: #e1670e;
+  background: var(--light-red);
 }
 
 /* секция о нас */
@@ -403,13 +404,13 @@ p {
 }
 
 .about-us_btn:focus {
-  background-color: #e1670e;
+  background-color: var(--light-red);
   outline: none;
-  border: 5px #e1670e solid;
+  border: 5px var(--light-red) solid;
 }
 
 .about-us_btn:active {
-  background-color: #e1670e;
+  background-color: var(--light-red);
 }
 
 .about-us_advantage_cards_container {
@@ -483,11 +484,11 @@ p {
 }
 
 .work_item:focus {
-  color: #e1670e;
+  color: var(--light-red);
 }
 
 .work_item:active {
-  color: #e1670e;
+  color: var(--light-red);
 }
 
 .consultation {
@@ -640,9 +641,9 @@ p {
 
 .questio_link:hover {
   color: var(--orange);
-  border-top: 2px solid #ff9900;
-  border-bottom: 2px solid #ff9900;
-  border-color: #ff9900;
+  border-top: 2px solid var(--orange);
+  border-bottom: 2px solid var(--orange);
+  border-color: var(--orange);
 }
 
 .footer_container {
